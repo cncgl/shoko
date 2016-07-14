@@ -27,3 +27,6 @@
 
 /public/pictures
 /public/documents
+vendor/bundle
+
+/.idea
