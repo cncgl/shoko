@@ -26,5 +26,7 @@ $ bundle exec rake db:seed
 ```
 $ bundle exec rails s -b 0.0.0.0
 ```
+
 visit browser http://localhost:3000
+
 account: shoko-admin / password
