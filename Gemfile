@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.3'
+gem 'rails', '~> 5.0.0'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -10,7 +11,7 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer',  platforms: :ruby
 # Use jquery as the JavaScript library
@@ -35,7 +36,7 @@ group :development do
   # Use Capistrano for deployment
   # gem 'capistrano-rails'
   gem 'annotate'
-  gem 'quiet_assets'
+  # gem 'quiet_assets'
 end
 
 group :development, :test do
@@ -64,5 +65,6 @@ gem 'kaminari'
 gem 'paperclip'
 gem 'websocket-rails'
 gem 'sidekiq'
-gem 'sinatra', require: false
+# gem 'sinatra', require: false
+gem 'sinatra', github: 'sinatra/sinatra'
 gem 'rmagick'
